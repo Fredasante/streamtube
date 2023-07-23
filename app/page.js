@@ -1,3 +1,9 @@
+import Feed from "@/components/Feed";
+
 export default function Home() {
-  return <main>App</main>;
+  return (
+    <main>
+      <Feed />
+    </main>
+  );
 }
