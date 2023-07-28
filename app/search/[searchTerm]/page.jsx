@@ -1,7 +1,8 @@
+import SearchFeed from "@/components/SearchFeed";
 import React from "react";
 
 const SearchTerm = () => {
-  return <div>SearchTerm</div>;
+  return <SearchFeed />;
 };
 
 export default SearchTerm;

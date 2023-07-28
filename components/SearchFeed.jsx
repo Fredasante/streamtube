@@ -1,7 +1,32 @@
-import React from "react";
+"use client";
+
+import { Box, Typography } from "@mui/material";
+import { useEffect, useState } from "react";
+import Videos from "./Videos";
+import { fetchFromApi } from "@/utils/fetchFromApi";
+import { useParams } from "next/navigation";
 
 const SearchFeed = () => {
-  return <div>SearchFeed</div>;
+  const [videos, setVideos] = useState(null);
+  const { searchTerm } = useParams();
+
+  useEffect(() => {
+    // setVideos(null);
+
+    fetchFromApi(`search?part=snippet&q=${searchTerm}`).then((data) =>
+      setVideos(data.items)
+    );
+  }, [searchTerm]);
+  return (
+    <Box p={2} sx={{ overflowY: "auto", flex: 2, height: "90vh" }}>
+      <Typography variant="h4" mt={2} fontWeight="bold">
+        Search Results For:{" "}
+        <span style={{ color: "#F31503" }}>{searchTerm}</span> videos
+      </Typography>
+
+      <Videos videos={videos} />
+    </Box>
+  );
 };
 
 export default SearchFeed;
