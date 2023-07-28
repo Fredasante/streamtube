@@ -1,7 +1,8 @@
+import VideoDetail from "@/components/VideoDetail";
 import React from "react";
 
 const VideoPage = () => {
-  return <div>VideoPage</div>;
+  return <VideoDetail />;
 };
 
 export default VideoPage;

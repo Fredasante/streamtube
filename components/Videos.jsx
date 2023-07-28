@@ -2,9 +2,14 @@ import { Box, LinearProgress, Stack } from "@mui/material";
 import VideoCard from "./VideoCard";
 import ChannelCard from "./ChannelCard";
 
-const Videos = ({ videos }) => {
+const Videos = ({ videos, direction }) => {
   return (
-    <Stack direction="row" flexWrap="wrap" justifyContent="start" gap={2}>
+    <Stack
+      direction={direction || "row"}
+      flexWrap="wrap"
+      justifyContent="start"
+      gap={2}
+    >
       {!videos ? (
         <Box sx={{ width: "100%", color: "grey.500", mt: 3 }}>
           <LinearProgress color="inherit" />
