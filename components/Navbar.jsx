@@ -2,6 +2,7 @@ import { logo } from "@/utils/constants";
 import { Stack } from "@mui/material";
 import Link from "next/link";
 import SearchBar from "./SearchBar";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -17,7 +18,7 @@ const Navbar = () => {
       }}
     >
       <Link href="/" style={{ display: "flex", alignItems: "center" }}>
-        <img
+        <Image
           src="/capture.png"
           height={45}
           width={45}

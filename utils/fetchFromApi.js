@@ -12,17 +12,17 @@ const options = {
   },
 };
 
-axios.interceptors.response.use(
-  (response) => {
-    return response;
-  },
-  (error) => {
-    if (error.response.status === 401) {
-      //place your reentry code
-    }
-    return error;
-  }
-);
+// axios.interceptors.response.use(
+//   (response) => {
+//     return response;
+//   },
+//   (error) => {
+//     if (error.response.status === 401) {
+//       //place your reentry code
+//     }
+//     return error;
+//   }
+// );
 
 export const fetchFromApi = async (url) => {
   const { data } = await axios.get(`${BASE_URL}/${url}`, options);
