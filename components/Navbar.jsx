@@ -18,7 +18,7 @@ const Navbar = () => {
       }}
     >
       <Link href="/" style={{ display: "flex", alignItems: "center" }}>
-        <img
+        <Image
           src="/Capture.png"
           height={45}
           width={45}
