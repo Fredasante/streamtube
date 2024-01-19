@@ -5,8 +5,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Youtube Clone",
-  description: "Clone of youtube website",
+  title: "Streamtube",
+  description: "A video sharing website",
 };
 
 export default function RootLayout({ children }) {
