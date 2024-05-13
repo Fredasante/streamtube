@@ -7,7 +7,6 @@ This project aims to replicate some of the core features and functionalities of 
 - **View Videos**: Users can browse and watch a wide range of videos across various categories.
 - **Search Functionality**: Users can search for videos based on keywords or topics.
 - **Responsive Design:**: The platform is designed to be responsive, ensuring a seamless experience across devices.
-- **Search Functionality**: Users can search for videos based on keywords or topics.
 
 ## Technologies Used
 
