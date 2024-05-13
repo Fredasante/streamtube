@@ -1,34 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). A youtube clone built using Next JS, Material UI and RAPID API.npm i
+# Streamtube
+
+This project aims to replicate some of the core features and functionalities of YouTube, allowing users to view and share videos.
+
+## Features
+
+- **View Videos**: Users can browse and watch a wide range of videos across various categories.
+- **Search Functionality**: Users can search for videos based on keywords or topics.
+- **Responsive Design:**: The platform is designed to be responsive, ensuring a seamless experience across devices.
+- **Search Functionality**: Users can search for videos based on keywords or topics.
+
+## Technologies Used
+
+- **Next JS**: Frontend framework for building user interfaces.
+- **Axios**: HTTP client for making API requests.
+- **Material UI**: Component library for building responsive and accessible UIs.
+- **RapidAPI**: Platform for accessing various APIs.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the Repository**: `git clone https://github.com/Fredasante/streamtube.git`
+2. **Install Dependencies**: `cd streamtube && npm install`
+3. **Set up Environment Variables**: Add `.env` file and add your API keys.
+4. **Run the Application**: `npm run dev`
+5. **Open in Browser**: Visit `http://localhost:3000` to view the application.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Contributing
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contributions are welcome! If you have suggestions for new features, bug fixes, or improvements, please open an issue or submit a pull request.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
