@@ -25,6 +25,17 @@ const Navbar = () => {
           alt="logo"
           style={{ borderRadius: "50%" }}
         />
+        <p
+          style={{
+            color: "white",
+            fontSize: "23px",
+            marginLeft: "5px",
+            fontWeight: "bold",
+          }}
+          className="logo"
+        >
+          Streamtube
+        </p>
       </Link>
 
       <SearchBar />
